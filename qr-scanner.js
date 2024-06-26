@@ -9,13 +9,18 @@ const qrScanner = new QrScanner(
       statusDiv.textContent = "Call or Text?";
       const callButton = document.createElement("button");
       callButton.textContent = "Call";
-      callButton.onclick = () => (window.location.href = result);
+      // Add event listener for the call button
+      callButton.addEventListener("click", () => {
+        window.location.href = result;
+      });
       statusDiv.appendChild(callButton);
 
       const textButton = document.createElement("button");
       textButton.textContent = "Text";
-      textButton.onclick = () =>
-        (window.location.href = "sms:" + result.substring(4)); // Remove "tel:" for SMS
+      // Add event listener for the text button
+      textButton.addEventListener("click", () => {
+        window.location.href = "sms:" + result.substring(4); // Remove "tel:" for SMS
+      });
       statusDiv.appendChild(textButton);
     } else {
       statusDiv.textContent =
