@@ -134,9 +134,7 @@ table {
 
 p {
   margin: 20px 60px 20px;  
-  font: 1em sans-serif;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font: 1.2rem "Fira Sans", sans-serif;
+  font: 3em "Fira Sans", sans-serif;
 }
 
 html {
