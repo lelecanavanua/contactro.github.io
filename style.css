@@ -134,12 +134,26 @@ table {
 
 p {
   margin: 20px 60px 20px;  
-  line-height: 1.5em;
   font: 1em sans-serif;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font: 1.2rem "Fira Sans", sans-serif;
 }
 
+html {
+  background: #d1d1d1
+}
+
+div {
+  position: absolute;
+  width:100vh;
+  background-color: #ef4e4e92;
+  align-items: center;
+  top: 30%;
+ /* left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
 a {
   text-decoration: none;
 }
+
