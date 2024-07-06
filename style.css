@@ -134,7 +134,7 @@ table {
 
 p {
   margin: 20px 60px 20px;  
-  font: 3em "Fira Sans", sans-serif;
+  font: 1.5em "Fira Sans", sans-serif;
 }
 
 html {
@@ -147,11 +147,10 @@ div {
   background-color: #ef4e4e92;
   align-items: center;
   top: 30%;
- /* left: 50%;
+/* left: 50%;
   transform: translate(-50%, -50%); */
 }
 
 a {
   text-decoration: none;
 }
-
